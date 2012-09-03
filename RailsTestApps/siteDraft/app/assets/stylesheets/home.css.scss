@@ -1,0 +1,110 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container
+{
+	text-align:center; 
+}
+
+.boxcontainer
+{
+	height:170px;
+	width:616px;
+	overflow-x:scroll;
+	border-width:1px; 
+	border-color:#FFFFFF;
+	border-style:solid;
+	margin: 0px auto;
+}
+
+.box
+{
+	height:150px; 
+	width:152px; 
+	border-width:1px; 
+	border-style:solid; 
+	border-color:#FFFFFF; 
+	margin:5px auto; 
+	text-align:center; 
+	float:left; 
+	vertical-align:top;
+	margin: 0px auto;
+}
+
+.category
+{
+	height:120px;
+	width:140px;
+	overflow-y:scroll; 
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#A0A0A0; 
+	background:#FFFFFF;
+	color: #000; 
+	text-align:left; 
+	margin:0px auto;
+}
+
+
+.label
+{
+	margin:0px auto;
+	font-family:Arial;
+}
+
+.header
+{
+	height:75px;
+	text-align:center;
+}
+
+.results
+{
+	clear:both;
+	text-align:center;
+}
+
+
+
+ul
+{
+	margin:0;
+	padding-left:0;
+	list-style-position: inside;
+	list-style: none;
+	font-family: arial;
+	font-size:15px;
+	
+}
+
+li.a
+{ 
+background-color:rgb(60,110,213);
+color: white;
+cursor:default;
+margin-left: 0;
+padding-left: 5px;
+}
+
+li.b
+{
+	background-color:#FFFFFF ;
+	cursor:default;
+	margin-left: 0;
+	padding-left: 5px;
+}
+
+li.b:hover
+{ 
+background-color:#F0F0F0;
+cursor:default;
+}
+
+h1
+{
+font-family: "helvetica neue";
+font-weight:normal;
+}
+

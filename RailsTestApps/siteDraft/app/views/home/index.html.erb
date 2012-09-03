@@ -1,0 +1,55 @@
+</head>
+<body>
+	
+	<div class="container" id="container">
+		<div class="header" id="header">
+			<h1>ProFinder</h1>
+		</div>
+		<div class="boxcontainer" id="options">
+			<div class="box" id="states container">
+				<p class="label"> State </p>
+				<div class="category" id="box0div">
+					
+					<ul id="box0">
+							<% @States.each do |state| %>
+						      <li><%= state.name %></li>
+						    <% end %>
+					</ul>
+						
+				</div>
+			</div>
+			<div class="box" id="cities container">
+				<p class="label"> City </p>
+				<div class="category" id="box1div">
+					
+					<ul id="box1">
+					</ul>
+					
+				</div>
+			</div>
+			<div class="box" id="Category Container">
+				<p class="label"> Category </p>
+				<div class="category" id="box3div">
+					<ul id="box3">
+					</ul>
+				</div>
+			</div>
+			<div class="box" id="Skills Container">
+				<p class="label"> Skills </p>
+				<div class="category" id="box4div">
+					<ul id="box4">
+					</ul>
+				</div>
+			</div>
+		</div>
+				
+		<div id="Results" style="clear:both;text-align:center;">
+				<p> Search Results </p>
+				<p> result </p>
+				
+				
+		</div>
+
+
+		</div>
+	</div>
